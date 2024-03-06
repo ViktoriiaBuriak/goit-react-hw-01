@@ -1,0 +1,3 @@
+@import "./Profile/Profile.module.css";
+@import "./FriendList/FriendList.module.css";
+@import "./TransactionHistory/TransactionHistory.module.css";

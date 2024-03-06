@@ -1,0 +1,32 @@
+.table-container {
+  width: 400px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-item {
+  border: 1px solid #131111;
+  color: #ffffff;
+  background-color: #282121e9;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px;
+}
+
+.table-value {
+  border: 1px solid #131111;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-type {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.table-list:nth-child(even) {
+  background-color: #c1babadf;
+}
