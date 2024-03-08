@@ -1,4 +1,4 @@
-.friends-list {
+.friendsList {
   width: max-content;
   display: flex;
   gap: 8px;
@@ -7,32 +7,32 @@
   margin-bottom: 20px;
 }
 
-.friend-item {
+.friendItem {
   text-align: center;
   border: 3px solid #1c1919de;
   border-radius: 8px;
   padding: 12px;
 }
 
-.friend-img {
+.friendImg {
   margin-bottom: 8px;
 }
 
-.friend-name {
+.friendName {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.friend-status {
+.friendStatus {
   font-size: 14px;
   font-weight: 400;
 }
 
-.friend-status.online {
+.friendStatus.online {
   color: #09811fde;
 }
 
-.friend-status.offline {
+.friendStatus.offline {
   color: #dd0d0dde;
 }

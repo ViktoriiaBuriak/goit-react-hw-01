@@ -1,26 +1,28 @@
+import css from "./Profile.module.css"
+
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
   return (
-    <div className="profile-container">
-      <div className="user-container">
-        <img src={avatar} alt="User avatar" className="user-img" />
-        <p className="user-name">{username}</p>
-        <p className="user-tag">@{tag}</p>
-        <p className="user-location">{location}</p>
+    <div className={css.profileContainer}>
+      <div className={css.userContainer}>
+        <img src={avatar} alt="User avatar" className={css.userImg} />
+        <p className={css.userName}>{username}</p>
+        <p className={css.userTag}>@{tag}</p>
+        <p className={css.userLocation}>{location}</p>
       </div>
 
-      <ul className="rating-list">
-        <li className="rating-item">
-          <span className="rating-title">Followers</span>
-          <span className="rating-stats">{followers}</span>
+      <ul className={css.ratingList}>
+        <li className={css.ratingItem}>
+          <span className={css.ratingTitle}>Followers</span>
+          <span className={css.ratingStats}>{followers}</span>
         </li>
-        <li className="rating-item">
-          <span className="rating-title">Views</span>
-          <span className="rating-stats">{views}</span>
+        <li className={css.ratingItem}>
+          <span className={css.ratingTitle}>Views</span>
+          <span className={css.ratingStats}>{views}</span>
         </li>
-        <li className="rating-item">
-          <span className="rating-title">Likes</span>
-          <span className="rating-stats">{likes}</span>
+        <li className={css.ratingItem}>
+          <span className={css.ratingTitle}>Likes</span>
+          <span className={css.ratingStats}>{likes}</span>
         </li>
       </ul>
     </div>
