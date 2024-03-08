@@ -6,7 +6,6 @@ import FriendList from "./FriendList/FriendList";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import "./App.css";
 
-
 const App = () => {
   return (
     <>
