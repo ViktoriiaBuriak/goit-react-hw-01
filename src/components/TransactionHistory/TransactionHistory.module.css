@@ -13,20 +13,3 @@
   font-weight: 700;
   padding: 8px;
 }
-
-.tableValue {
-  border: 1px solid #131111;
-  padding: 8px;
-  text-align: center;
-}
-
-.tableType {
-  text-align: start;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: capitalize;
-}
-
-.tableList:nth-child(even) {
-  background-color: #c1babadf;
-}

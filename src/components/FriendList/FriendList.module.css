@@ -13,26 +13,3 @@
   border-radius: 8px;
   padding: 12px;
 }
-
-.friendImg {
-  margin-bottom: 8px;
-}
-
-.friendName {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.friendStatus {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.friendStatus.online {
-  color: #09811fde;
-}
-
-.friendStatus.offline {
-  color: #dd0d0dde;
-}
